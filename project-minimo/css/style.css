@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+body{
+  font-family: 'Playfair Display', serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0px;
+}
+.text-black{
+  color: black;
+}
+.pad-70{
+  padding: 70px 0px;
+}
+.tag{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #c8c3b9;
+}
+.title{
+  font-size: 30px;
+  color: #626262;
+}
+.desc{
+  font-size: 14px;
+  color: #626262;
+  line-height: 1.8;
+}
+.comment {
+  color: #c7c1b6;
+}
+.btn-load{
+  padding: 15px 30px;
+  border: 1px solid #626262;
+  border-radius: 0px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 70px;
+  color: #626262;
+  font-size: 20px;
+  background: transparent;
+}
+/* topbar style start here */
+.topbar{
+  padding: 30px 0px;
+}
+.nav li{
+  margin-left: 80px;
+}
+.nav li a{
+  color: black;
+  padding: 0px;
+}
+/* topbar style end here */
+
+/* banner style start here */
+.banner{
+  width: 100%;
+}
+.banner img{
+  width: 100%;
+  
+}
+/* banner style end here */
+
+/* post-section style start here */
+.post-item{
+  margin-bottom: 80px;
+}
+.post-item img{
+  width: 94%;
+}
+/* post-section style end here */
+
+/* newsletter-section style start here */
+.newsletter-section{
+  background: #f0f0f0;
+}
+.sign-up{
+  font-size: 30px;
+  color: #333333;
+  margin-bottom: 35px;
+}
+.form-group{
+  width: 400px;
+  margin: 0 auto;
+}
+.form-control{
+  border: none;
+  border-bottom: 1.5px solid black;
+  border-radius: inherit;
+  padding: 0px;
+  background: transparent;
+}
+.input-group{
+  position: relative;
+}
+.paper-plane{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+}
+/* newsletter-section style end here */
+
+/* footer-section style start here */
+footer{
+  background: #f0f0f0;
+  padding: 30px 0px;
+}
+.footer-menu{
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+}
+.footer-menu li{
+  margin-right: 15px;
+}
+.footer-menu li a{
+  color: #333333;
+  text-decoration: none;
+}
+/* footer-section style end here */
